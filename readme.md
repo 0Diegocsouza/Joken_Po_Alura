@@ -28,3 +28,6 @@ A lógica compara a jogada do jogador com a jogada aleatória do computador:
 
 O placar mostra a pontuação de cada jogador e é atualizado automaticamente após cada rodada:
 
+<img src="https://github.com/0Diegocsouza/Joken_Po_Alura/blob/main/inicial.PNG"/>
+<img src="https://github.com/0Diegocsouza/Joken_Po_Alura/blob/main/jogando.PNG"/>
+
