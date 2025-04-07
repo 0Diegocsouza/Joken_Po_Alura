@@ -1,32 +1,40 @@
 # 🕹️ Jokenpô - Desafio da Imersão Alura
 
-Este projeto é um mini jogo de **Pedra, Papel e Tesoura** desenvolvido durante a **Imersão Dev da Alura**. O jogador escolhe sua jogada e o computador responde aleatoriamente. Agora com **placar ao vivo** para acompanhar quem está ganhando!
+Este projeto é um mini jogo de **Pedra, Papel e Tesoura**, feito com HTML, CSS e JavaScript puro. Desenvolvido como parte da **Imersão Dev da Alura**, o jogo agora conta com um **placar dinâmico** e um sistema de rodadas com **fim de jogo após 10 turnos**!
 
 ## 🚀 Tecnologias utilizadas
 
-- HTML
-- CSS
-- JavaScript Vanilla (puro)
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
 
 ## 🎮 Como jogar
 
-1. Clique no botão **"Bora jogar!"**
-2. Escolha sua jogada: Pedra, Papel ou Tesoura
-3. O computador fará sua escolha automaticamente
-4. Um alerta mostra o resultado da rodada
-5. O placar é atualizado em tempo real
+1. Clique em **"Bora jogar!"** para iniciar.
+2. Escolha entre Pedra, Papel ou Tesoura.
+3. O computador escolhe aleatoriamente sua jogada.
+4. A cada jogada, o placar é atualizado.
+5. O jogo termina após 10 rodadas **(empates não contam)**, com a exibição do vencedor.
 
-## 🧠 Lógica do jogo
+## 🧠 Regras do jogo
 
-A lógica compara a jogada do jogador com a jogada aleatória do computador:
 - Pedra ganha de Tesoura
 - Tesoura ganha de Papel
 - Papel ganha de Pedra
-- Jogadas iguais resultam em empate
+- Empates não somam pontos nem aumentam o número de rodadas
+
+## 🧾 Regras extras
+
+- O jogo termina automaticamente após **10 rodadas válidas** (sem contar empates).
+- O vencedor é determinado por quem tiver mais pontos ao fim das rodadas.
+- Uma tela final mostra o vencedor com uma ilustração personalizada:
+  - 👑 Jogador vence: mostra imagem com o personagem com coroa
+  - 🤖 Computador vence: mostra o robô com coroa
 
 ## 📈 Funcionalidade extra: placar ao vivo
 
-O placar mostra a pontuação de cada jogador e é atualizado automaticamente após cada rodada:
+Durante o jogo, o placar é atualizado em tempo real:
+
 
 <img src="https://github.com/0Diegocsouza/Joken_Po_Alura/blob/main/inicial.PNG"/>
 <img src="https://github.com/0Diegocsouza/Joken_Po_Alura/blob/main/jogando.PNG"/>
